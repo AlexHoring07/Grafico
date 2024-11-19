@@ -1,0 +1,40 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e3f2fd; /* Azul claro */
+  color: #0d47a1; /* Azul escuro */
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(to right, #1976d2, #0d47a1);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Conteúdo principal */
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+canvas {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: block;
+}
+
+/* Rodapé */
+footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  }
