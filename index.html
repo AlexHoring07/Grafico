@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Usuários de Redes Sociais</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming Popularidade</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Usuários de Redes Sociais no Mundo</h1>
-  </header>
-  <main>
-    <section>
-      <h2>Sobre a Pesquisa</h2>
-      <p>
-        Este gráfico mostra a distribuição percentual de usuários ativos nas principais redes sociais em 2024. 
-        As plataformas consideradas incluem Facebook, YouTube, WhatsApp, Instagram e TikTok.
-        Esses dados fornecem insights sobre o impacto global das redes sociais.
-      </p>
-    </section>
-    <section>
-      <h2>Distribuição de Usuários</h2>
-      <canvas id="socialMediaChart"></canvas>
-    </section>
-  </main>
-  <footer>
-    <p>Dados atualizados em 2024 | Desenvolvido por Alex Horing</p>
-  </footer>
-  <script src="script.js"></script>
+    <header>
+        <h1>Uso de Serviços de Streaming</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#grafico">Gráfico</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="sobre">
+        <h2>Sobre</h2>
+        <p>Os serviços de streaming transformaram a maneira como consumimos conteúdo audiovisual. 
+           Este site apresenta uma visão geral do uso de plataformas populares, como Netflix, Prime Video, Disney+ e Max, destacando suas tendências ao longo dos últimos anos.</p>
+    </div>
+    <div class="container" id="grafico">
+        <h2>Gráfico</h2>
+        <p>Os dados abaixo mostram a distribuição de assinantes das principais plataformas de streaming em 2023.</p>
+        <canvas id="streamingChart" width="400" height="400"></canvas>
+    </div>
+    <footer>
+        <p>Dados atualizados em 2024. Fontes: Superinteressante, The Streamable, Kantar.</p>
+    </footer>
 </body>
-      </html>
+  </html>
